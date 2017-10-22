@@ -269,7 +269,7 @@ AC_ARG_ENABLE(framework,
 		PYTHONFRAMEWORKINSTALLDIR=$PYTHONFRAMEWORKPREFIX/$PYTHONFRAMEWORKDIR
 		FRAMEWORKINSTALLFIRST="frameworkinstallstructure"
 		FRAMEWORKALTINSTALLFIRST="frameworkinstallstructure "
-		FRAMEWORKINSTALLLAST="frameworkinstallmaclib frameworkinstallapps frameworkinstallunixtools"
+		FRAMEWORKINSTALLLAST="frameworkinstallmaclib frameworkinstallunixtools"
 		FRAMEWORKALTINSTALLLAST="frameworkinstallmaclib frameworkinstallapps frameworkaltinstallunixtools"
 		FRAMEWORKPYTHONW="frameworkpythonw"
 		FRAMEWORKINSTALLAPPSPREFIX="/Applications"
