@@ -3130,8 +3130,8 @@ if test "${enable_framework+set}" = set; then :
 		PYTHONFRAMEWORKINSTALLDIR=$PYTHONFRAMEWORKPREFIX/$PYTHONFRAMEWORKDIR
 		FRAMEWORKINSTALLFIRST="frameworkinstallstructure"
 		FRAMEWORKALTINSTALLFIRST="frameworkinstallstructure "
-		FRAMEWORKINSTALLLAST="frameworkinstallmaclib frameworkinstallapps frameworkinstallunixtools"
-		FRAMEWORKALTINSTALLLAST="frameworkinstallmaclib frameworkinstallapps frameworkaltinstallunixtools"
+		FRAMEWORKINSTALLLAST="frameworkinstallmaclib frameworkinstallunixtools"
+		FRAMEWORKALTINSTALLLAST="frameworkinstallmaclib frameworkaltinstallunixtools"
 		FRAMEWORKPYTHONW="frameworkpythonw"
 		FRAMEWORKINSTALLAPPSPREFIX="/Applications"
 
